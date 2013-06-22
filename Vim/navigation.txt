@@ -1,0 +1,31 @@
+# Char
+Forward   l
+Backward  h
+
+# Word
+Next      w
+Previous  b
+Start     b
+end       e
+
+# Line
+Up        k
+Down      j
+Start     0
+End       $
+
+# Sentence
+Start     (
+End       )
+
+# Paragraph
+Start     {
+End       }
+
+# Screen
+Down      CTRL f
+Up        CTRL b
+
+# Page
+Top       gg
+Bottom    G

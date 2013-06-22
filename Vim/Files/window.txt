@@ -1,0 +1,20 @@
+# Create
+
+Horizontal    CTRL -w +s
+Vertical      CTRL -w +v
+
+# Focus
+Left    CTRL -w +h
+Right   CTRL -w +l
+Above   CTRL -w +k
+Below   CTRL -w +j
+Cycle   CTRL -w +w
+
+# Close
+Active  CTRL -w +c
+Others  CTRL -w +o
+
+# Resize
+Equalize    CTRL -w +=
+Max Height  CTRL -w +_
+Equalize    CTRL -w +|

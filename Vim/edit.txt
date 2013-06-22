@@ -1,0 +1,18 @@
+# Insert 
+Cursor      i
+Append      a
+Start line  I
+End Line    A
+
+# Change
+Word      cw
+Line      cc
+End       c$
+Start     c0
+ 
+# Replace
+Char      r
+
+# Lines
+Open  o
+

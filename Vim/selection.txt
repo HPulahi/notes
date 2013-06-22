@@ -1,0 +1,18 @@
+# Visual
+Char   v
+Line   V
+Block  CTRL v
+Repeat gv
+
+# Tags
+Inner      it
+All        at
+
+Inner <>   i<
+All <>     a<
+
+Inner []   i[
+All []     a[
+
+Inner {}   i{
+All {}     a{

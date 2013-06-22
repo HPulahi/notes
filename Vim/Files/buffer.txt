@@ -1,0 +1,18 @@
+# Create 
+
+Open   vim {filename}
+Glob   vim *.{pattern}
+Add    :badd {filename}
+Delete :bdelete {filename}
+
+# Navigate
+
+Next   :bnext
+Prev   :bprev
+First  :bfirst
+Last   :blast 
+
+# View
+
+List   :ls
+List   :args

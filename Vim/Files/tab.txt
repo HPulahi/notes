@@ -1,0 +1,8 @@
+# Create
+Open    :tabedit {filename}
+Move    CTRL -w +T
+
+# Navigate
+Next    :tabnext
+Prev    :tabprevious
+Find    :tab {num}

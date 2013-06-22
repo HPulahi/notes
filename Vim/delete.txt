@@ -1,0 +1,9 @@
+# Forward 
+Char    x
+Word    dw
+Line    dd
+
+# Backwards
+Char   {num}X
+Word   db
+Line   d0

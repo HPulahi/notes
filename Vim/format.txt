@@ -1,0 +1,3 @@
+# Word
+Uppercase    gU{motion}
+Lowercase    gu{motion}

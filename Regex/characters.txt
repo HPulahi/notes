@@ -1,0 +1,24 @@
+# Literal Characters
+
+a   ==> a
+car ==> car
+
+# Meta Characters
+
+\ . * - {} [] () ^ $ | ? : ! =
+
+# Escaping Meta Characters
+
+\
+
+# Other Special Characters
+
+<space>        Spaces
+\t             Tabs
+\r, \n, \r\n   Line Returns
+\a             Bell
+\e             Escape
+\f             Form Feed
+\v             Vertical Tab
+
+

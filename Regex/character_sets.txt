@@ -1,0 +1,30 @@
+# Character Sets []
+/gr[ea]y/      ==> [grey], [gray]
+/gr[ea]t/      x=> great
+/gr[ea][ea]t/  ==> [great], [graet], [greet], [graat]
+
+# Character Ranges -
+  * A dash is a metacharacter only inside a character set.
+
+/[A-Z]ello/    ==> [Hello]
+
+# Negative Character Set ^
+ * Negates the character set
+ * Add as the first character inside a character set
+
+/see[^mn]/   ==> [seek], [sees], seem, seen
+/see[^mn]/   ==> [see ], see
+
+# Metacharacters inside character sets
+  * They are already escaped
+  * Exceptions are ], - ^ \
+
+/h[abc.xyz]t/ ==> [hat], [h.t], hot
+
+# Shorthand Character Sets
+\d  -- Digit -- [0-9]
+\w  -- Word characters -- [a-zA-Z0-9_]
+\s  -- White space -- [ \t\r\n]
+\D  -- Not digit -- [^0-9]
+\W  -- Not word character -- [^a-zA-Z0-9_]
+\S  -- Not whitespace -- [^ \t\r\n]
